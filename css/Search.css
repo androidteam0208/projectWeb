@@ -1,0 +1,25 @@
+.breakpage{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.breakpage_container{
+    
+    display: flex;
+    justify-content: space-between ;
+    margin: 50px 0;
+
+}
+.breakpage a{
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: 2px solid rgb(185, 185, 185);
+}
+.breakpage a:hover{
+    border: 2px double gray;
+}
+.breakpage .choosed{
+    border: 2px double gray;
+}

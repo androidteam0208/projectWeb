@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chi tiết</title>
+
+    <link rel="stylesheet" href="css/Giohang.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link rel="stylesheet"
+        href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic">
+
+    <link rel="stylesheet" href="./fontawesome-free-5.7.2-web/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-text">
+                <a href="">
+                    <h3>DREAM STORE</h3>
+                </a>
+            </div>
+            <div class="header-link">
+                <div class="search-form">
+                    <form action="">
+                        <input type="text" placeholder="Nhập nội dung cần tìm" class="input-search">
+                        <span class="search-icon">
+                            <button type="submit"><i class="fa fa-fw fa-search fa-2x"></i></button>
+                        </span>
+                    </form>
+                </div>
+                <div class="product-cart">
+                    <a href="Giohang.html"><i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr noshade size="1" />
+    </header>
+    <!-- end header -->
+
+    <div class="container">
+        <!-- nav -->
+        <div class="nav-main">
+            <ul>
+                <li>
+                    <a href="">adidas</a>
+                </li>
+                <li>
+                    <a href="">nike</a>
+                </li>
+                <li>
+                    <a href="">new balance</a>
+                </li>
+            </ul>
+        </div>
+        <!-- end nav -->
+
+        <p id="title">GIỎ HÀNG </p>
+        <p id="title_sub"> YOU'VE GOT 2 ITEMS IN THE CART</p>
+        <br />
+        <table id="table_selected">
+            <tr id="head_table">
+                <th class="null">&nbsp;</th>
+                <th class="product" colspan="2">Sản phẩm</th>
+                <th class="number">Số lượng</th>
+                <th class="sum">Tổng cộng</th>
+            </tr>
+            <tr>
+                <td class="click"><a class="click_remove">x</a></td>
+                <td class="product_image">
+                    <a href="http://smatestore.com/shop/airmax-97-15/">
+
+                        <img src="images/airmax-97-15-70x90.jpg" alt="AIRMAX “97 “ 15">
+
+                    </a>
+                </td>
+
+                <td class="product_name">
+                    <span>
+                        <a href="http://smatestore.com/shop/airmax-97-15/">AIRMAX “97 “ 15</a>
+                    </span>
+                    <br />
+                    <p class="price_one">900,000.00₫</p>
+                </td>
+
+                <td>
+                    <script>
+                        $(document).ready(function () {
+
+                            $("#button_down").click(function () {
+                                var nhan = document.getElementById('text_number').value;
+                                var so = parseInt(nhan);
+								if(so==0){
+									so=1;
+								}
+                                document.getElementById('text_number').value = so - 1;
+                            });
+                            $("#button_increate").click(function () {
+                                var nhan = document.getElementById('text_number').value;
+                                var so = parseInt(nhan);
+                                document.getElementById('text_number').value = so + 1
+                            });
+                        });
+                    </script>
+                    <div>
+                        <input type="button" value="–" class="plusminus plus" id="button_down">
+                        <input type="number" step="1" min="0" max="" value="2" title="SL" size="3"
+                            inputmode="numeric" id="text_number" class="number_selected">
+                        <input type="button" value="+" class="plusminus plus" id="button_increate">
+                    </div>
+                </td>
+
+                <td class="price">
+                    1,800,000.00₫
+                </td>
+            </tr>
+            <tr>
+                <td class="click"><a class="click_remove">x</a></td>
+                <td class="product_image">
+                    <a href="http://smatestore.com/shop/airmax-97-15/">
+                        <img src="images/airmax-97-13-70x90.jpg" alt="AIRMAX “97 “ 13">
+                    </a>
+                </td>
+
+                <td class="product_name">
+                    <span>
+                        <a href="http://smatestore.com/shop/airmax-97-13/">AIRMAX “97 “ 13</a>
+                    </span>
+                    <br />
+                    <p class="price_one">900,000.00₫</p>
+                </td>
+
+                <td>
+                    <div>
+                        <input type="button" value="–" class="plusminus plus">
+                        <input type="number" step="1" min="0" max="" value="2" title="SL" size="3" pattern="[0-9]*"
+                            inputmode="numeric" aria-labelledby="AIRMAX “97 “ 13 số lượng" class="number_selected">
+                        <input type="button" value="+" class="plusminus plus">
+                    </div>
+                </td>
+
+                <td class="price ">
+                    1,800,000.00₫
+                </td>
+            </tr>
+
+            <tr>
+                <td class="click"><a class="click_remove">x</a></td>
+                <td class="product_image">
+                    <a href="http://smatestore.com/shop/airmax-97-15/">
+                        <img src="images/airmax-97-13-70x90.jpg" alt="AIRMAX “97 “ 13">
+                    </a>
+                </td>
+
+                <td class="product_name">
+                    <span>
+                        <a href="http://smatestore.com/shop/airmax-97-13/">AIRMAX “97 “ 13</a>
+                    </span>
+                    <br />
+                    <p class="price_one">900,000.00₫</p>
+                </td>
+
+                <td>
+                    <div>
+                        <input type="button" value="–" class="plusminus plus">
+                        <input type="number" step="1" min="0" max="" value="2" title="SL" size="3" pattern="[0-9]*"
+                            inputmode="numeric" aria-labelledby="AIRMAX “97 “ 13 số lượng" class="number_selected">
+                        <input type="button" value="+" class="plusminus plus">
+                    </div>
+                </td>
+
+                <td class="price ">
+                    1,800,000.00₫
+                </td>
+            </tr>
+
+        </table>
+        <div id="cash">
+
+            <p>Thanh toán</p>
+            <hr /> <br />
+            <span>Tổng cộng : </span> <span class="sum_cash">3,600,000.00 ₫</span>
+            <div class="cart-buttons">
+                <div class="col">
+                    <button type="button" class="button_Cash" id="update-cart-first">Update Cart</button>
+                </div>
+
+                <div class="col">
+                    <button type="button" class="button_Cash" id="update-cart-secondary"><a href="./Cashing.html">Check
+                            Out</a></button>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="clear">&nbsp;</div>
+    <footer style="bottom: 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <p class="footer-head">LIÊN HỆ</p>
+                    <ul class="link-footer">
+                        <li>DREAM STORE 1: 198/5 Hồ Văn Huê, Phường 9, Quận Phú Nhuận</li><br />
+                        <li>DREAM STORE 2 : 1074 Quang Trung, Phường 8, Quận Gò Vấp</li><br />
+                        <li>HOTLINE : 0938 263 989 (Mua lẻ) 0938 74 0087 (Mua sỉ)</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <p class="footer-head">Kết nối với Shop</p>
+                    <ul class="social-sq">
+                        <li><a title="Facebook" href="https://www.facebook.com/Smatesmatestore/" rel="nofollow"
+                                target="_blank">
+                                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li><a title="Youtube" href="https://www.youtube.com/channel/UCY5D59KPPnSVeF5eKpvo4nw"
+                                rel="nofollow" target="_blank">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                            </a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <hr noshade />
+            <div class="copyright">
+                <br />
+                <p>© 2015 <span>Dream Store</span></p><br />
+                <p>Giấy phép MXH số 314/GP-BTTTT.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

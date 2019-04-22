@@ -1,0 +1,150 @@
+body{
+		font-weight: 300;
+		font-family: 'Roboto Condensed',sans-serif;
+}
+.slider {
+	color: white;
+	height:500px;
+	width:400px;
+	display: flex;
+	overflow-x: auto;
+	-webkit-scroll-snap-points-x: repeat(300px);
+      -ms-scroll-snap-points-x: repeat(300px);
+          scroll-snap-points-x: repeat(300px);
+  -webkit-scroll-snap-type: mandatory;
+      -ms-scroll-snap-type: mandatory;
+          scroll-snap-type: mandatory;
+  }
+  .slide {
+	width: 400px;
+	flex-shrink: 0;
+	height: 100%;
+	
+  }
+  .slide img{
+	height:500px;
+	width:400px;
+  }
+  .slides > div:target {
+	transform: scale(0.8);
+	}
+	.side-button {
+		height: 120px;
+	}
+  .slide-wrap a{
+	  float: left;
+	  margin: 10px;
+	  padding: 0px;
+		width: 80px;
+	  text-align: center;
+  }
+  .side-button img{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.side-button:hover img{
+		opacity: 0.9;
+		transition: all 0.3s ;
+	}
+	.link-spk{
+		float: left;
+	}
+	.add{
+		/* direction: rtl; */
+		margin-left:90px;
+	}
+	.add:hover{
+		color:white;
+	}
+
+  .vungdat{
+	  padding: 50px;
+  }
+
+#chitietsanpham{
+	width:1200px;
+	margin:auto;
+	margin-top: 20px;
+}
+.sanpham div{
+	float:left;	
+	margin:10px;
+}
+.clear{
+	clear:both;	
+}
+.mauchu{
+	display: inline-block;
+	color:#666;
+	font-size: 20px;
+	margin-top: 20px 0px;
+	
+}
+.gia{
+	display: block;
+	padding-bottom: 10px;
+}
+
+#text{
+	margin:0px;
+	column-span:0px;	
+}
+
+.datmua{
+	font-size: 18px;
+	background-color:#eee;
+	border: 0px;
+	padding:10px 25px 10px 25px;
+}
+.datmua2:hover{
+	background-color:#000;
+	color:#FFF;
+}
+.vungdat{
+	float:left;	
+
+}
+#table{
+padding:0px 10px 0px 0px;;	
+margin:0px;
+}
+table{
+margin:0px;	
+}
+.sanphamkhac{
+	padding-left: 30px;
+}
+.spkhac{
+	width: 255px;
+	min-height: 200px;
+	float: left;
+	margin-right: 37px;
+}
+.spkhac img{
+	width: 255px;
+	height: 250px;
+}
+.spkhac a{
+	color:gray;
+	font-size: 18px;
+}
+.spkhac img:hover{
+	opacity: 0.3;
+}
+.spkhac a:hover{
+	text-decoration:underline;
+}
+.mota {
+	font-size: 15px;
+	color: darkgray;
+	margin-bottom: 10px;
+	
+}
+.vungdat .sub_decription{
+	font-size: 20px;
+	font-weight: 300;
+	color: rgb(41, 40, 40);
+	line-height: 31px;
+}

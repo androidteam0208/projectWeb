@@ -1,0 +1,158 @@
+body{
+    width: 100%;
+    padding: 0%;
+    font-family: 'Roboto',sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+a:hover{
+    cursor: pointer;
+}
+#content{
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    min-height: 650px;
+}
+#title{
+    font-size: 30px;
+    color:#181818;
+}
+#title_sub{
+    font-size: 20px;
+    color: #909090;
+}
+#table_selected{
+    width: 100%;
+    border-collapse: collapse;
+}
+#head_table{
+    font-size: 18px;
+    color: #909090;
+    text-align: right;
+}
+#table_selected td{
+    height: 100px;
+    border-bottom: 1px solid gray;
+}
+
+#table_selected img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 90px;
+}
+#table_selected th{
+    height: 50px;
+    border-bottom: 1px solid gray;
+
+}
+.product{
+    width:  70%;
+}
+.sum , .price{
+    text-align: right;  
+    padding-right:10px;
+    border-radius : 0px 5px 5px 0px;
+    font-size: 20px;
+}
+.null{
+    border-radius : 5px 0px 0px 5px;
+    width: 10px;
+}
+.product, .number {
+    text-align: left;
+    
+}
+.product_image{
+    width: 8%;
+}
+.product_name{
+    font-size: 20px;
+    text-align: left;
+}
+.price_one{
+    color: lightslategray;
+}
+.number_selected{
+    text-align: center;
+    width: 80px;
+    height: 50px;
+    border: none;
+    background-color:#d9d9d9;
+}
+.plusminus{
+    width: 40px;
+    height: 50px;
+    border: none;
+    background-color:#d9d9d9;
+}
+.plusminus:hover{
+    cursor: pointer;
+}
+#cash{
+    margin-top: 40px;
+    float: right;
+    width: 30%;
+    margin-bottom:  40px;
+}
+#cash span{
+    line-height: 20px;
+    margin-top: 40px;
+    color: rgb(87, 87, 87);
+    font-size: 25px;
+}
+#cash p{
+    font-size: 25px;
+}
+.col{
+    display: inline-block;
+    width: 49%;
+    height: 40px;
+    margin:0px;
+}
+.cart-buttons{
+    margin-top: 70px;
+}
+.sum_cash{
+    float: right;
+    margin-right: 5px;
+    font-size: 30px;
+}
+.button_Cash{
+    border: none;
+    width: 100%;
+    height: 100%;
+    color: white;
+    
+}
+.button_Cash:hover{
+    cursor: pointer;
+}
+#update-cart-first{
+    background-color: cornflowerblue;
+}
+#update-cart-secondary{
+    background-color: black;
+}
+.col #update-cart-secondary a {
+    color: white;
+}
+.click_remove{
+    display: none;
+	font-size:15px;
+	text-decoration:none !important 
+	
+}
+.click:hover  .click_remove{
+    display: block;
+	font-size:15px;
+}
+
+.clear{
+    clear: both;
+}
